@@ -18,7 +18,7 @@ void PRINT_CALENDAR(int year);
 int NUMBER_OF_DAYS(int monthNumber, int year);
 char* GET_MONTH_NAME(int monthNumber);
 int DAY_NUMBER(int day, int month, int year);
-//lol
+
 int main(int argc, char *argv[]){
 
     CHOICE = DETERMINE_ARG(argc, argv); // CHOICE get return value from DETERMINE_ARG function
